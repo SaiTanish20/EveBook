@@ -52,6 +52,15 @@
             context.VenueTypes.AddOrUpdate(new VenueTypeInfo { VenueTypeId = 11, VenueType = "Stadiums and arenas" });
             context.VenueTypes.AddOrUpdate(new VenueTypeInfo { VenueTypeId = 12, VenueType = "Parks and fields" });
 
+            context.Questions.AddOrUpdate(new SecurityQuestion { SquId = 1, Question = "What is your mother's maiden name?" });
+            context.Questions.AddOrUpdate(new SecurityQuestion { SquId = 2, Question = "What is the name of your first pet?" });
+            context.Questions.AddOrUpdate(new SecurityQuestion { SquId = 3, Question = "What was your first car?" });
+            context.Questions.AddOrUpdate(new SecurityQuestion { SquId = 4, Question = "What elementary school did you attend" });
+            context.Questions.AddOrUpdate(new SecurityQuestion { SquId = 5, Question = "What is the name of the town where you were born?" });
+            context.Questions.AddOrUpdate(new SecurityQuestion { SquId = 6, Question = "When you were young,what did you want to be when you grew up?" });
+            context.Questions.AddOrUpdate(new SecurityQuestion { SquId = 7, Question = "Who was your childhood hero?" });
+            context.Questions.AddOrUpdate(new SecurityQuestion { SquId = 8, Question = "Where was your best family vacation as a kid?" });
+
             context.EventTypes.AddOrUpdate(new EventTypeInfo { EventId = 1, Event = "Conferences" });
             context.EventTypes.AddOrUpdate(new EventTypeInfo { EventId = 2, Event = "Exhibitions" });
             context.EventTypes.AddOrUpdate(new EventTypeInfo { EventId = 3, Event = "Promotions" });
